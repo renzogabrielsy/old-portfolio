@@ -58,9 +58,8 @@ body {
 }
 
 #navbrand {
-    border: 1px solid black;
+    border: 1px solid whitesmoke;
     font-size: 1em;
-    background-color: #A980AD;
     text-shadow: black 1px 0 5px;
     padding: 10px;
     font-weight: bolder;
@@ -71,7 +70,7 @@ body {
 
 button.navbar-toggler {
     color: white;
-    border: 1px solid white;
+    border: 1px solid whitesmoke;
     text-shadow: black 1px 0 5px;
     border-radius: 0%;
 }
@@ -79,7 +78,7 @@ button.navbar-toggler {
 
 a.nav-link {
     color: white;
-    border: 1px solid black;
+    border: 1px solid whitesmoke;
     padding: 10px;
     margin: 0.75em 0.25em 0.25em 0.25em;
     transition: all 0.25s ease-in-out;
@@ -114,6 +113,17 @@ section#mainsection .row {
     margin: 0.75em 0em;
 }
 
+.navbar {
+    transition: all 0.25s ease-in-out;
+}
+
+.navbar.scrolled {
+    background-color: #a980add7;
+    transition: all 0.25s ease-in-out;
+
+}
+
+
 h2 {
     font-size: 2em;
 }
@@ -128,7 +138,7 @@ section#mainsection img {
 }
 
 hr {
-    background-color: #A980AD;
+    background-color: #85B2D3;
 }
 
 @media (min-width: 780px) {
