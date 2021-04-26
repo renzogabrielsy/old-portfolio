@@ -30,7 +30,7 @@ let input = prompt('What would you like to do today')
 const toDoList = []
 
 
-while (input !== 'quit' && input !== 'q') {
+while (input !== 'quit' && input !== 'q' && input !== null) {
     if (input !== 'new' && input !== 'list' && input !== 'delete') {
         alert('Please enter valid input!');
     }
