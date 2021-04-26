@@ -3,84 +3,172 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin        : 0;
+    padding       : 0;
+    border        : 0;
+    font-size     : 100%;
+    font          : inherit;
+    vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
 }
+
 body {
-	line-height: 1;
-    color: white;
+    line-height: 1;
+    color      : white;
+    width      : 100%;
 }
-ol, ul {
-	list-style: none;
+
+ol,
+ul {
+    list-style: none;
 }
-blockquote, q {
-	quotes: none;
+
+blockquote,
+q {
+    quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
 }
+
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing : 0;
 }
 
 body {
     background-color: #2F2482;
-    font-family: 'Courier Prime', 'Courier New', Courier, monospace
+    font-family     : 'Courier Prime', 'Courier New', Courier, monospace
 }
 
 #topnavbar {
-    color:white;
+    color: white;
 }
 
 #navbrand {
-    border: 1px solid whitesmoke;
-    font-size: 1em;
-    text-shadow: black 1px 0 5px;
-    padding: 10px;
-    font-weight: bolder;
-    color: white;
+    border        : 1px solid whitesmoke;
+    font-size     : 1em;
+    text-shadow   : black 1px 0 5px;
+    padding       : 10px;
+    font-weight   : bolder;
+    color         : white;
     text-transform: uppercase;
 }
 
 
 button.navbar-toggler {
-    color: white;
-    border: 1px solid whitesmoke;
-    text-shadow: black 1px 0 5px;
+    color        : white;
+    border       : 1px solid whitesmoke;
+    text-shadow  : black 1px 0 5px;
     border-radius: 0%;
 }
 
 
 a.nav-link {
-    color: white;
-    border: 1px solid whitesmoke;
-    padding: 10px;
-    margin: 0.75em 0.25em 0.25em 0.25em;
+    color     : white;
+    border    : 1px solid whitesmoke;
+    padding   : 10px;
+    margin    : 0.75em 0.25em 0.25em 0.25em;
     transition: all 0.25s ease-in-out;
     text-align: center;
 }
@@ -88,24 +176,25 @@ a.nav-link {
 
 a.nav-link:hover {
     background-color: #85B2D3;
-    text-shadow: black 1px 0 5px;
-    transition: all 0.25s ease-in-out;
+    text-shadow     : black 1px 0 5px;
+    transition      : all 0.25s ease-in-out;
 }
 
 a#merch:hover {
     background-color: #c3c4c3;
-    text-shadow: black 1px 0 5px;
-    transition: all 0.25s ease-in-out;
+    text-shadow     : black 1px 0 5px;
+    transition      : all 0.25s ease-in-out;
 }
 
 a#donate:hover {
     background-color: #88e6ae;
-    text-shadow: black 1px 0 5px;
-    transition: all 0.25s ease-in-out;
+    text-shadow     : black 1px 0 5px;
+    transition      : all 0.25s ease-in-out;
 }
 
-div#headinggroup h1{
-    font-size: 4em;
+
+div#headinggroup h1 {
+    font-size  : 4em;
     text-shadow: black 2px 3px 15px;
 }
 
@@ -119,7 +208,7 @@ section#mainsection .row {
 
 .navbar.scrolled {
     background-color: #a980add7;
-    transition: all 0.25s ease-in-out;
+    transition      : all 0.25s ease-in-out;
 
 }
 
@@ -133,7 +222,7 @@ p {
 }
 
 section#mainsection img {
-    margin: auto;    
+    margin : auto;
     display: block;
 }
 
@@ -150,7 +239,7 @@ hr {
         font-size: 1.5em;
     }
 
-    div#headinggroup h1{
+    div#headinggroup h1 {
         font-size: 5em;
     }
 }
