@@ -199,10 +199,11 @@ div#headinggroup h1 {
 }
 
 section#mainsection .row {
-    margin: 0.75em 0em;
+    margin: 0.75em 0em 0.75em 0em;
 }
 
 .navbar {
+    background-color: #a980add7;
     transition: all 0.25s ease-in-out;
 }
 
@@ -221,6 +222,11 @@ p {
     font-size: 1em;
 }
 
+section#mainsection {
+    margin: 2em 0em;
+    padding: 2em;
+}
+
 section#mainsection img {
     margin : auto;
     display: block;
@@ -230,7 +236,11 @@ hr {
     background-color: #85B2D3;
 }
 
-@media (min-width: 780px) {
+@media (min-width: 992px) {
+    .navbar {
+        background-color: #ffffff00;
+    }
+
     #navbrand {
         font-size: 1.5em;
     }
@@ -243,3 +253,4 @@ hr {
         font-size: 5em;
     }
 }
+
