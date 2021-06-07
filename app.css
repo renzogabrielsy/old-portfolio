@@ -255,6 +255,7 @@ hr {
     font-weight: bolder;
     font-size  : 1.25em;
     border     : 1px solid black;
+    background-color: whitesmoke;
     width      : 200px;
     height     : 75px;
     padding    : 3px;
@@ -264,6 +265,7 @@ hr {
     font-weight: bolder;
     font-size  : 1.25em;
     border     : 1px solid black;
+    background-color: whitesmoke;
     width      : 200px;
     height     : 75px;
     padding    : 3px;
