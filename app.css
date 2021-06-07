@@ -143,11 +143,13 @@ body {
 
 #topnavbar {
     color: white;
+    margin-bottom: 5em;
+    padding: 0.5em 0.5em;
 }
 
 #navbrand {
     border        : 1px solid whitesmoke;
-    font-size     : 1em;
+    font-size     : 1.8em;
     text-shadow   : black 1px 0 5px;
     padding       : 10px;
     font-weight   : bolder;
@@ -167,12 +169,15 @@ button.navbar-toggler {
 a.nav-link {
     color     : white;
     border    : 1px solid whitesmoke;
-    padding   : 10px;
-    margin    : 0.75em 0.25em 0.25em 0.25em;
+    padding   : 0.5em;
+    margin    : 0.5em 0.25em;
     transition: all 0.25s ease-in-out;
     text-align: center;
 }
 
+#home {
+    margin-top: 1em;
+}
 
 a.nav-link:hover {
     background-color: #85B2D3;
@@ -203,12 +208,12 @@ section#mainsection .row {
 }
 
 .navbar {
-    background-color: #a980add7;
+    background-color: #a980adfa;
     transition: all 0.25s ease-in-out;
 }
 
 .navbar.scrolled {
-    background-color: #a980add7;
+    background-color: #a980adfa;
     transition      : all 0.25s ease-in-out;
 
 }
@@ -236,13 +241,72 @@ hr {
     background-color: #85B2D3;
 }
 
+/* for scorekeeper app */
+
+.winner {
+    color: rgb(117, 230, 117);
+}
+
+.loser {
+    color: rgb(226, 89, 89);
+}
+
+#p1Button {
+    font-weight: bolder;
+    font-size: 1.5em;
+    border: 2px solid black;
+    min-width: 60%;
+    min-height: 60%;
+    padding: 1em;
+}
+
+#p2Button {
+    font-weight: bolder;
+    font-size: 1.5em;
+    border: 2px solid black;
+    min-width: 60%;
+    min-height: 60%;
+    padding: 1em;
+}
+
+#resetButton {
+    font-weight: bolder;
+    font-size: 1.5em;
+    border: 2px solid black;
+    min-width: 60%;
+    min-height: 60%;
+    padding: 1em 2.8em;
+}
+
+#scoreButtonRow div.col-4 {
+    padding: 10px;
+}
+
+#winningScoreLabel {
+    padding: 1em;
+    font-weight: bolder;
+    font-size: 1.25em;
+}
+
+#winScoreInput {
+    justify-content: center;
+    margin: auto 1em;
+    font-size: 1.25em;
+    font-weight: bolder;
+    height: 2em;
+}
+
+#h1Score {
+    font-size: 8em;
+}
+
 @media (min-width: 992px) {
     .navbar {
         background-color: #ffffff00;
     }
 
     #navbrand {
-        font-size: 1.5em;
+        font-size: 1.8em;
     }
 
     p {
@@ -251,6 +315,10 @@ hr {
 
     div#headinggroup h1 {
         font-size: 5em;
+    }
+
+    #home {
+        margin    : 0.5em 0.25em;
     }
 }
 
