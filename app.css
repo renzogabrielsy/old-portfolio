@@ -241,6 +241,23 @@ hr {
     background-color: #85B2D3;
 }
 
+/*  ABout Me CSS */
+
+#contactSpotify {
+    max-width: 250px;
+    max-height: 250px;
+}
+
+#contactApple {
+    max-width: 250px;
+    max-height: 250px;
+}
+
+#contactGithub {
+    max-width: 250px;
+    max-height: 250px;
+}
+
 /* for scorekeeper app */
 
 .winner {
@@ -304,10 +321,21 @@ hr {
     font-size: 2.75em;
 }
 
+/*  display none elements */
+
 #scoreKeeperTitle {
-   display: none;
-    
+   display: none;   
 }
+
+#aboutMeTitle {
+    display: none;
+}
+
+#skipToContact {
+    display: none;
+}
+
+/* media queries */
 
 @media (min-width: 992px) {
     .navbar {
@@ -367,6 +395,25 @@ hr {
         font-weight: bolder;
         font-size  : 25px;
         align-items: center;
+        
+
+    }
+
+    #aboutMeTitle {
+        display: flex;
+        flex-wrap: wrap;
+        font-weight: bolder;
+        font-size  : 40px;
+        align-items: center;
+
+    }
+
+    #skipToContact {
+        display: flex;
+        flex-wrap: wrap;
+        font-size  : 20px;
+        text-align: center;
+        padding: 0em 2em;
 
     }
 }
@@ -378,5 +425,14 @@ hr {
 
     #scoreKeeperTitle {
         font-size: 20px;
+    }
+
+    #aboutMeTitle {
+        font-size: 40px;
+    }
+
+    #skipToContact {
+        font-size: 20px;
+        padding: 0em 2em;
     }
 }
